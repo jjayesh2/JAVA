@@ -16,7 +16,7 @@ public class A2_Linear_Search {
 
     public static void main(String[] args) {
         String fruits[] = { "MANGO", "PINEAPPLE", "BANANA", "ORANGE", "APPLE", "CHIKU", "GUAVA" };
-        String key = "ORANGE";
+        String key = "MANGO";
 
         int index = linear(fruits, key);
 
