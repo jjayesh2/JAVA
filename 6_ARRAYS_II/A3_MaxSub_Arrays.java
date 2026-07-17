@@ -36,7 +36,7 @@ public class A3_MaxSub_Arrays {
     }
 
     public static void main(String[] args) {
-        int numbers[] = { -2, -3, -1, -2,  -3 };
+        int numbers[] = { 2, -3, 1, -2,  3 };
         kadanes(numbers);
 
     }

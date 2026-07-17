@@ -14,7 +14,6 @@ public class A4_Trapping_Rainwater {
 
         int rightMax[] = new int[height.length];
         rightMax[height.length - 1] = height[height.length - 1];
-
         for (int j = height.length - 2; j >= 0; j--) {
             rightMax[j] = Math.max(height[j], rightMax[j + 1]);
 

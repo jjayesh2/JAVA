@@ -52,7 +52,7 @@ public class A5_StockPrices {
         
     }
     public static void main(String[] args) {
-        int Selling_Prices []={7,1,5,3,6,4};
+        int Selling_Prices []={7, 6, 4, 3, 1};
         System.out.println(buySellingPrices(Selling_Prices));
         
     }
