@@ -1,7 +1,7 @@
 //! 3 NESTED LOOPS ARE USED IN THIS PROGRAM WHICH ARE GOING TO (n)..........
 //!  SO THE TIME COMPLEXITY WILL BE O(n³) WHICH IS WORST TIME COMPLEXITY
-//! BUT IT WAS BRUTE FORCE MEAN BASIC SOLUTION WAS THIS.....................
-
+//! BUT IT WAS BRUTE FORCE MEANs,, BASIC SOLUTION, WAS THIS.....................
+  
 public class A1_MaxSub_Arrays {
 
     public static void MaxSub(int numbers[]){
