@@ -8,7 +8,13 @@ public class A9_Container_with_Most_Water {
         int MaxWater = 0;
         for (int i = 0; i < height.length; i++) {
 
+
+            
+
             for (int j = i + 1; j < height.length; j++) {
+
+
+
 
                 int width = j - i;
                 int MinHeight = Math.min(height[i], height[j]);
