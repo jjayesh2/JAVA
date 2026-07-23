@@ -1,3 +1,13 @@
+//!MORRE'S VOTING ALGORITH 
+
+//!INTUTION:---
+//!THE ELEMENT WHO'S FREQUENCY IS GREATER THEN N/2 ....AND EXIST IN THIS ARRAY THEN....................
+//!IF WE START COUNTING FREQUENCY OF EVERY ELEMENT THEN EVERYTIME MAJORITY ELEMENT HAVE MORE FREQUENCY
+
+
+
+
+
 public class A13_Majority_Element {
 
     public static int majority(int nums[]) {
@@ -12,7 +22,8 @@ public class A13_Majority_Element {
             if (ans == nums[i]) {
                 frequency++;
 
-            } else {
+            } 
+            else {
                 frequency--;
             }
         }
