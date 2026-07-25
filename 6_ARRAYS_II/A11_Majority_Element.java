@@ -1,5 +1,5 @@
 //BRUTE FORCE 
-//THE ELEMENT WHICH IS PRESENT IN ARRAY MORE THAT (n/2) TIMES IS MAJORITY ELEMENT....
+//THE ELEMENT WHICH IS PRESENT IN ARRAY MORE THAn (n/2) TIMES IS MAJORITY ELEMENT....
 //{1,2,1,1,2} = 5/2 = 2.5 = 2 ........1 IS PRESENT MORE THAN 2 TIMES 
 public class A11_Majority_Element {
     public static int majority(int array[]){

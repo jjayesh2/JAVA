@@ -40,11 +40,11 @@ public class A13_Majority_Element {
             }
 
         }
-        return -1;
+        return ans;
     }
 
     public static void main(String[] args) {
-        int nums[] = { 1, 2, 3, 4 };
+        int nums[] = { 2,1,1,2,1,1,1,2,2};
         System.out.println(majority(nums));
     }
 

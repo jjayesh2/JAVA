@@ -10,7 +10,7 @@ public class A1_MaxSub_Arrays {
 
         for (int i = 0; i < numbers.length; i++) {
             int start = i ;
-            for (int j = i; j < numbers.length; j++) {
+            for (int j = i+1; j < numbers.length; j++) {
                 int end =j;
                 Current_Sum=0;
                 for (int k = start ; k <= end; k++) {
