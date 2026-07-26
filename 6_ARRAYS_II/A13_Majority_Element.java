@@ -28,18 +28,18 @@ public class A13_Majority_Element {
             }
         }
 
-        int count = 0;
-        for (int val : nums) {
-            if (val == ans) {
-                count++;
+        // int count = 0;
+        // for (int val : nums) {
+        //     if (val == ans) {
+        //         count++;
 
-            }
-            if (count > n / 2) {
-                return ans;
+        //     }
+        //     if (count > n / 2) {
+        //         return ans;
 
-            }
+        //     }
 
-        }
+        // }
         return ans;
     }
 
