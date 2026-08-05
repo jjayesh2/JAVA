@@ -1,4 +1,4 @@
-public class SpiralMatrix {
+public class A2_SpiralMatrix {
 
 
     public static void spiral(int matrix[][]){
