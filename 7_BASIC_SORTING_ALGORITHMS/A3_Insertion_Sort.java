@@ -6,7 +6,7 @@ import java.util.Collections;
 
 public class A3_Insertion_Sort {
 
-    public static void Insertion(Integer array[]){
+    public static void Insertion(int array[]){
 
         for (int i = 1; i < array.length; i++) {
             int curr = i;
@@ -21,7 +21,7 @@ public class A3_Insertion_Sort {
         }
 
     }
-        public static void Printt(Integer array[]){
+        public static void Printt(int array[]){
             for (int i = 0; i < array.length; i++) {
                 System.out.println(array[i]);
             }
@@ -33,10 +33,10 @@ public class A3_Insertion_Sort {
     }
     public static void main(String[] args) {
 
-        Integer array[] = { 5,4,3,2,1};
+        int array[] = { 5,4,3,2,1};
         
 
-        Arrays.sort(array, Collections.reverseOrder());
+        // Arrays.sort(array, Collections.reverseOrder());
         Printt(array);
 
 
