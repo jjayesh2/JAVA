@@ -14,7 +14,7 @@ public class A3_diagonalSum {
                     
                 }
                 else if(i+j == matrix.length-1){
-                    sum += matrix[i][j];
+                    sum +=  matrix[i][j];
                 }
                 
             }
